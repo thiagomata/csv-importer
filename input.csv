@@ -1,0 +1,4 @@
+Patient ID;Name;Gender;Length;Weight;Pregnant;Months Pregnant;Date of diagnosis
+1;Johnson;Female;1.69;64;Yes;8;21-07-2016
+2;Smith;Male;1.69;89;No;;04-02-2015
+3;Lewis;Female;1.55;54;No;;21-12-2016
