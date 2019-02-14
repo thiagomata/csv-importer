@@ -70,9 +70,13 @@ All the field transformations are definitions related to fields. So, only when t
 
 ## Classes and Interfaces
 
-https://github.com/thiagomata/csv-importer/tree/master/app/Importer
+All the classes used on this project are on the Importer folder [app/Importer]
 
 ## Tests and Examples
 
-https://github.com/thiagomata/csv-importer/tree/master/tests/Unit
+All the tests used on this project are on the Unit Test folder [tests/Unit]
 
+## To Do
+
+* The CLI command to read a csv file and apply the transformations
+* The Web Interface to list the fields on a file and let the user create the output selecting the fields and adding the transformations
