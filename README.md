@@ -70,11 +70,11 @@ All the field transformations are definitions related to fields. So, only when t
 
 ## Classes and Interfaces
 
-All the classes used on this project are on the Importer folder [app/Importer]
+All the classes used on this project are on the Importer folder [app/Importer](app/Importer)
 
 ## Tests and Examples
 
-All the tests used on this project are on the Unit Test folder [tests/Unit]
+All the tests used on this project are on the Unit Test folder [tests/Unit](tests/Unit)
 
 ## To Do
 
