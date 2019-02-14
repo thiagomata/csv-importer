@@ -67,3 +67,12 @@ $objCsvTarget->
 ```
 
 All the field transformations are definitions related to fields. So, only when the target is reder, that reading the source file just one time, line by line, we make all the transformations required only for the fields necessary to the target and without creating new objects.
+
+## Classes and Interfaces
+
+https://github.com/thiagomata/csv-importer/tree/master/app/Importer
+
+## Tests and Examples
+
+https://github.com/thiagomata/csv-importer/tree/master/tests/Unit
+
