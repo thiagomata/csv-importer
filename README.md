@@ -25,7 +25,15 @@ $objCsvSource->getFieldByPosition(0)
 ```
 
 After selecting the fields, we can transform them. While some transformations don't required any kind of paramter, 
-others demand some attributes. The calls of transformations can be call on chain using two different strategies:
+others demand some attributes. 
+
+```php
+$objTransformation = new DateTransformation("Y-m-d","d-m-Y");
+$strResult = $objTransformation->transform("2018-03-02");
+$this->assertEquals("02-03-2018", $strResult);
+```
+
+The calls of transformations can be call on chain using two different strategies:
 
 ```php
 # field is changed and create a new field that can also be changed...
