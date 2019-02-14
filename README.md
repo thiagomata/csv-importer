@@ -8,6 +8,8 @@ the others data types.
 
 To read a CSV File you need to set the settings and then the project will load the fields of the data source:
 
+![overview](https://yuml.me/f0cb7af3.png)
+
 ```php
 $objSettings = CsvSourceSettings::builder()->
   withColumnDelimiter(";")->
@@ -63,3 +65,5 @@ $objCsvTarget->
   addFieldAtPositionWithName(1,$objFieldHash,"hash")->
   getCsvContent()
 ```
+
+All the field transformations are definitions related to fields. So, only when the target is reder, that reading the source file just one time, line by line, we make all the transformations required only for the fields necessary to the target and without creating new objects.
