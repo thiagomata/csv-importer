@@ -8,7 +8,7 @@ the others data types.
 
 To read a CSV File you need to set the settings and then the project will load the fields of the data source:
 
-![overview](diagram/diagram.png)
+![overview](diagram/overview.svg)
 
 ```php
 $objSettings = CsvSourceSettings::builder()->
